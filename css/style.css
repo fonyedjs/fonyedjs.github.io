@@ -58,6 +58,13 @@ background-color: #030033;
   height: 100vh;
 }
 
+.entry {
+  padding-top: 120px;
+  font-size: 8em;
+  font-family: 'Rye', cursive;
+  color: white;
+}
+
 .about {
   padding-top: 80px;
   padding-bottom: 80px;
