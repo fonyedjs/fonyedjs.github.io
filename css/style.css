@@ -38,6 +38,7 @@ background-color: #030033;
 
 .navbar-default .navbar-nav > li > a {
   font-family: 'Raleway', sans-serif;
+  font-size: .7em;
   color: #fff; /*Change active text color here*/
 }
 
@@ -61,7 +62,7 @@ background-color: #030033;
 
 .entry {
   padding-top: 120px;
-  font-size: 6em;
+  font-size: 5em;
   font-family: 'Rye', cursive;
   color: white;
 }

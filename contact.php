@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,10 +40,11 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">Contact</a></li>
             </ul>
             <form class="navbar-form navbar-right">
-              <button type="submit" class="btn btn-default" onclick="alert('Feature coming soon')">Login</button>
+              <a href="subscribe.html" class="btn btn-default">Login</a>
             </form>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -56,45 +56,61 @@
 
       <div class="row header">
 
-        <div class="col-xs-12">
+        <div class="col-xs-12 text-center">
           <a name="top"></a>
-          <p class="text-center entry">FONYE<br />Subscriptions</p>
+          <p class="entry">Contact Us</p>
         </div>
       </div>
 
-      <div class="row about">
-        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-          <div>
-            <h1>Membership</h1>
-            <p class="">The most basic membership gives you eligibility for booking through FONYE DJs and puts you on the web site, as a Member. If you would like to be on a FONYE Network Radio Station, you will need the <strong>(Gold)</strong> Package, as a minimum.</p>
+      <div class="row" style=" background: #666;">
+          <div class="col-lg-8 col-lg-offset-2" style="margin-top: 35px;">
+
+                  <div class="panel panel-default" >
+                      <div class="panel-heading">
+                          <h2 class="panel-title">Contact Form</h2>
+                      </div>
+                      <div class="panel-body">
+                          <form name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form">
+                              <div class="form-group">
+                                  <label for="inputName" class="col-lg-2 control-label">Name</label>
+                                  <div class="col-lg-10">
+                                      <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+                                  <div class="col-lg-10">
+                                      <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+                                  <div class="col-lg-10">
+                                      <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+                                  <div class="col-lg-10">
+                                      <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-lg-offset-2 col-lg-10">
+                                      <button type="submit" class="btn btn-default">
+                                          Send Message
+                                      </button>
+                                  </div>
+                              </div>
+                          </form>
+
+                      </div>
+                  </div>
+
           </div>
-          <p><br /></p>
-          <div class="col-lg-4">
-            <div class="well">
-              <h1 class="text-center text-success">Silver</h1>
-              <p class="text-center"><i class="fa fa-dollar"></i><strong>15</strong><br />Monthly Recurring Subscription</p>
-              <p>This is the most affordable option. If you want air time and promotional slots, you will need to upgrade to the next package, in order to get air time on our show</p>
-              <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CDUYN3GZU3MX8" target="_blank" class="btn btn-block btn-success"><i class="fa fa-paypal"></i>ayPal</a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="well">
-              <h1 class="text-center text-warning">Gold</h1>
-              <p class="text-center"><i class="fa fa-dollar"></i><strong>30</strong><br />Monthly Recurring Subscription</p>
-              <p>This is the most affordable option, to get you on the air. This allows you a one-hour slot of time on the weekly show. You can upgrade to the <strong>"Platinum"</strong> at anytime</p>
-              <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XMLGBW8CZK4R2" target="_blank" class="btn btn-block btn-warning"><i class="fa fa-paypal"></i>ayPal</a>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="well">
-              <h1 class="text-center text-primary">Platinum</h1>
-              <p class="text-center"><i class="fa fa-dollar"></i><strong>55</strong><br />Monthly recurring subscription</p>
-              <p>This allows you a four-hour slot of time on the weekly show and free access to our site, as it expands. You will always be included in new releases, at no extra cost.</p>
-              <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MMEARXYMJJVYN" target="_blank" class="btn btn-block btn-primary"><i class="fa fa-paypal"></i>ayPal</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+    </div>
     <!-- END MAIN CONTENT -->
 
     <!-- FOOTER -->
@@ -110,10 +126,10 @@
         <div class="col-xs-12 col-lg-4 text-center" id="social">
           <h2>Follow Us</h2>
           <p>
-            <a href="https://twitter.com/fonye" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-            <a href="https://www.facebook.com/therealfonye/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a href="https://www.mixcloud.com/adam-djaj-smith/live-skate-music-and-hiphop-blend-session-unplanned-unedited/" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a>
-            <a href="https://www.youtube.com/user/fonyerecords" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+              <a href="https://twitter.com/fonye" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.facebook.com/therealfonye/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+              <a href="https://www.mixcloud.com/adam-djaj-smith/live-skate-music-and-hiphop-blend-session-unplanned-unedited/" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a>
+              <a href="https://www.youtube.com/user/fonyerecords" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
         </p>
       </div>
       <div class="col-xs-12 col-lg-4">
