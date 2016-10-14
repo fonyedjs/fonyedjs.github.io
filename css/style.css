@@ -7,7 +7,7 @@
 body {
   background: #333;
   font-family: 'Raleway', serif;
-  font-size: 2.2em
+  font-size: 1.7em
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -37,8 +37,11 @@ background-color: #030033;
 }
 
 .navbar-default .navbar-nav > li > a {
+<<<<<<< HEAD
   font-family: 'Raleway', sans-serif;
   font-size: .7em;
+=======
+>>>>>>> a7b987a7f4a9ca9672a174cc533292a6e7ad2f5b
   color: #fff; /*Change active text color here*/
 }
 
