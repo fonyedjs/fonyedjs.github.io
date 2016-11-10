@@ -5,41 +5,41 @@
    ============================================================== */
 
 body {
-  background: #333;
-  font-family: 'Raleway', serif;
-  font-size: 1.7em
+    background: #333;
+    font-family: 'Raleway', serif;
+    font-size: 1.7em
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #000;  /*Sets the text hover color on navbar*/
+    color: #000;  /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
  a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color: white; /*BACKGROUND color for active*/
-background-color: #030033;
+     color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
 }
 
 .navbar-default {
-  background-color: #83285C;
-  border: none;
+    background-color: #83285C;
+    border: none;
 }
 
 .dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
-  color: #262626;
-  text-decoration: none;
-  background-color: #66CCFF;  /*change color of links in drop down here*/
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;  /*change color of links in drop down here*/
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-  text-decoration: none;
-  background-color: silver; /*Change rollover cell color here*/
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-family: 'Raleway', sans-serif;
-  font-size: .7em;
-  color: #fff; /*Change active text color here*/
+    font-family: 'Raleway', sans-serif;
+    font-size: .7em;
+    color: #fff; /*Change active text color here*/
 }
 
 /* |======================================================|
@@ -52,47 +52,47 @@ background-color: #030033;
    |======================================================| */
 
 .header {
-  background: #a5a5a5;
-  background-image: url(../img/turntables.gif);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100vh;
+    background: #a5a5a5;
+    background-image: url(../img/turntables.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .entry {
-  padding-top: 120px;
-  font-size: 5em;
-  font-family: 'Rye', cursive;
-  color: white;
+    padding-top: 180px;
+    font-size: 6em;
+    font-family: 'Rye', cursive;
+    color: white;
 }
 
 .about {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background: #BEC6F2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
 }
 
 .contact {
-  padding: 44px;
-  color: white;
+    padding: 44px;
+    color: white;
 }
 
 .profiles {
-  background: #425C8F;
-  color: white;
-  padding: 66px;
+    background: #425C8F;
+    color: white;
+    padding: 66px;
 }
 
 .footer {
-  clear: both;
-  background: #000;
-  color: #ccc;
-  padding: 44px 44px 88px 44px;
+    clear: both;
+    background: #000;
+    color: #ccc;
+    padding: 44px 44px 88px 44px;
 }
 
 #social > p > a > i {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 /* |======================================================|
