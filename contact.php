@@ -43,9 +43,9 @@
               <li><a href="index.html">Home</a></li>
               <li class="active"><a href="#">Contact</a></li>
             </ul>
-            <form class="navbar-form navbar-right">
+            <!--<form class="navbar-form navbar-right">
               <a href="subscribe.html" class="btn btn-default">Login</a>
-            </form>
+          </form>-->
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>

@@ -15,11 +15,11 @@ show_error("Invalid e-mail address");
 }
 /* Let's prepare the message for the e-mail */
 
-$subject = "Someone has sent you a message";
+$subject = "DJ Booking Contact";
 
 $message = "
 
-Someone has sent you a message using your contac form:
+Someone has sent you a message using your contact form:
 
 Name: $name
 Email: $email
@@ -34,7 +34,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://address-of-confirmation-page.html');
+header('Location: https://fonyedjs.github.io/confirm.html');
 exit();
 
 /* Functions we used */
